@@ -1,0 +1,16 @@
+swagger: "2.0"
+tags:
+- name: "users"
+schemes:
+- "https"
+- "http"
+paths:
+  /users:
+    get:
+      summary: Get all users
+      description: Returns all users from the DB
+      tags:
+        - users
+      responses:
+        200:
+          description: All users returned
